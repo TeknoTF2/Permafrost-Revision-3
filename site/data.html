@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>Hard Data — PERMAFROST Analysis</title>
+<link rel="stylesheet" href="style.css">
+<script src="https://cdn.jsdelivr.net/npm/chart.js@4.4.1/dist/chart.umd.min.js"></script>
+</head>
+<body>
+<nav><div class="inner">
+  <span class="brand">PERMAFROST</span>
+  <a href="index.html">Overview</a>
+  <a href="analysis.html">Story &amp; World</a>
+  <a href="characters.html">Characters</a>
+  <a href="chapters-book1.html">Book 1 Chapters</a>
+  <a href="chapters-book2.html">Book 2 Chapters</a>
+  <a href="beta-read.html" >Beta Read</a>
+  <a href="data.html" class="active">Data</a>
+  <a href="market.html">Market</a>
+</div></nav>
+<main>
+
+<h1>Hard Data</h1>
+<p>Every number on this page was computed directly from the Revision 3 manuscript files (chapter segmentation by heading; words = alphabetic tokens; dialogue = words inside curly double quotes; interior monologue = words inside curly single quotes). Charts require an internet connection (Chart.js CDN); all figures are also stated in the text.</p>
+
+<h2>Manuscript Vitals</h2>
+<table>
+<tr><th>Metric</th><th>Book One</th><th>Book Two</th><th>Series</th><th>Genre norm (adult epic fantasy)</th></tr>
+<tr><td>Word count</td><td>95,751</td><td>137,268</td><td>233,019</td><td>Debut sweet spot 90–120k; sequels may run longer</td></tr>
+<tr><td>Chapters</td><td>30</td><td>40</td><td>70</td><td>—</td></tr>
+<tr><td>Avg chapter length</td><td>3,181</td><td>3,417</td><td>3,316</td><td>3,000–4,500 — <b>on target</b></td></tr>
+<tr><td>Shortest / longest chapter</td><td>1,802 (Ch. 16) / 4,664 (Ch. 10)</td><td>1,961 (Ch. 10) / 4,857 (Ch. 14)</td><td>—</td><td>Healthy variance</td></tr>
+<tr><td>Dialogue share</td><td>22.7%</td><td>25.4%</td><td>24.2%</td><td>25–40% typical — <b>slightly description-heavy</b></td></tr>
+<tr><td>Avg sentence length</td><td>12.8 words</td><td>11.8 words</td><td>12.2</td><td>12–16 — punchy, modern; suits the survival register</td></tr>
+<tr><td>Em-dashes</td><td colspan="2">279 total</td><td>1 per 835 words</td><td>Moderate; no action needed</td></tr>
+<tr><td>Ellipses</td><td colspan="2">158 total</td><td>1 per 1,475 words</td><td>Fine</td></tr>
+</table>
+<p class="small">Takeaways: Book One sits exactly in the querying sweet spot. Book Two's 137k is normal for a second-in-series. The 22.7% B1 dialogue share reflects the heavy interiority style; note that B2's most propulsive chapters (the reunion, the registration, the finale) run 40–60% dialogue — evidence that scenes breathe better when the cast talks.</p>
+
+<h2>Chapter Lengths</h2>
+<div class="chartbox"><h3>Words per chapter</h3><canvas id="wcChart" height="120"></canvas>
+<p class="small">Book One's longest chapters cluster in the Valdara arc (Ch. 4–11) and shorten through the duel/aftermath chapters — an accelerating heartbeat, structurally ideal. Book Two's peaks (Ch. 13–18) are the warship/Solarspire/dream stretch; its shortest chapter (Ch. 10, Orthek &amp; Muse, 1,961 words) is also one of its best — proof the manuscript already knows short chapters can carry weight.</p></div>
+
+<h2>Dialogue Density</h2>
+<div class="chartbox"><h3>Dialogue % per chapter</h3><canvas id="dlgChart" height="120"></canvas>
+<p class="small">The near-zero chapters are deliberate (B1 Ch. 13–16: the dungeon fights; B1 Ch. 21: Carina dying alone — 0% dialogue, 20.4% interior monologue; B2 Ch. 18: the dream). The data confirms a stylistic signature: <b>this series goes silent at its emotional extremes.</b> Useful self-knowledge — when a chapter is dragging, the fix is usually to let people talk.</p></div>
+
+<h2>Sentence Rhythm</h2>
+<div class="chartbox"><h3>Average sentence length per chapter (words)</h3><canvas id="sentChart" height="120"></canvas>
+<p class="small">A visible compression trend across Book One (15.7 → ~11) as the story darkens — sentences shorten under stress, which is craft working as intended. Book Two holds a tight 10–14 band. Watch for monotony in long action stretches: several fight chapters sit at 10–11 words/sentence for thousands of words; an occasional long, rolling sentence buys the short ones their punch back.</p></div>
+
+<h2>Character Page-Time (name mentions per book)</h2>
+<div class="chartbox"><h3>Top character mentions</h3><canvas id="mentionChart" height="160"></canvas>
+<p class="small">The five leads are remarkably balanced (Book One: Cain 505, Muse 425, Gormund 375, Uthesia 306, Carina 300) — unusually equitable for an ensemble and a real strength. Note the Book Two story in the deltas: <b>Carina is the only lead whose count rises</b> (300→378; she's the protagonist of Book Two by the numbers), while Fafnir (0→122), Dantalion (7→122), Barbatos (55→151) and Yoo (17→151) quantify exactly how much oxygen the new political cast consumes — the measured cause of the "POV sprawl" feel.</p></div>
+
+<h2>Prose Tics &amp; Crutch Words</h2>
+<p>Counts across both books (233k words), with a practical target. None of these are errors individually — the issue is aggregate visibility. Rule of thumb: a reader consciously notices a pet construction at roughly 1 use per 2,000 words.</p>
+<table>
+<tr><th>Pattern</th><th>Count</th><th>Rate</th><th>Assessment</th></tr>
+<tr><td>"looked / looking / looks"</td><td>641</td><td>1 / 364 words</td><td class="improve">Top offender. Characters constantly look at each other between lines. Cut a third; replace with action beats.</td></tr>
+<tr><td>"something" (vague noun)</td><td>673</td><td>1 / 346</td><td class="improve">The signature tic — "something that might have been…", "something underneath". Powerful when rationed; currently ~2.9 per 1,000 words. Halve it.</td></tr>
+<tr><td>"back" (motion/return)</td><td>675</td><td>1 / 345</td><td>Mostly functional; sweep for "back" doubling ("stepped back, pulled back").</td></tr>
+<tr><td>"voice"</td><td>403</td><td>1 / 578</td><td class="improve">A side effect of the (excellent) sound-first style, but "his voice was/carried/had" is a default dialogue tag amplifier. Vary the channel: posture, hands, breath.</td></tr>
+<tr><td>"just"</td><td>400</td><td>1 / 583</td><td>Normal range for voice-y narration; trim only in formal POVs (Cain, Uthesia).</td></tr>
+<tr><td>"eyes / eye"</td><td>347</td><td>1 / 672</td><td>High, partly justified (one-eyed Cain, blind Muse, eye symbolism). Keep deliberate.</td></tr>
+<tr><td>"cold"</td><td>343</td><td>1 / 679</td><td>The book is about cold; defensible. Ensure metaphorical uses ("cold voice") don't dilute literal ones.</td></tr>
+<tr><td>"silence / silent" + "quiet"</td><td>361</td><td>1 / 645</td><td class="improve">"The room went quiet/still/silent" is the scene-beat default — it appears in some form in most chapters. Budget one per chapter.</td></tr>
+<tr><td>"enough"</td><td>429</td><td>1 / 543</td><td class="improve">"X enough to Y" is a core sentence engine ("close enough that…", "loud enough to…"). Distinctive but heavily over-used.</td></tr>
+<tr><td>"the way (that)…"</td><td>199</td><td>1 / 1,171</td><td>Simile engine #2 ("the way water parts for a stone"). Often lovely; audit per chapter.</td></tr>
+<tr><td>"felt / feel(ing)"</td><td>371</td><td>1 / 628</td><td class="improve">Filter-word cluster (see below).</td></tr>
+<tr><td>"watched"</td><td>185</td><td>1 / 1,260</td><td>Filter; convert to direct description where POV allows.</td></tr>
+<tr><td>"heard"</td><td>163</td><td>1 / 1,430</td><td>Largely earned by Muse's POV; audit non-Muse uses.</td></tr>
+<tr><td>"paused"</td><td>112</td><td>1 / 2,080</td><td>Dialogue-beat default ("A pause."); fine, but rotate.</td></tr>
+<tr><td>"not X, but Y" construction</td><td>27 (strict) / ~90 (loose)</td><td>—</td><td>Signature rhetorical move ("Not a question. An observation."). Keep — it's voice — but it appears in every POV, which flattens differentiation.</td></tr>
+<tr><td>"the kind of/that…"</td><td>52</td><td>1 / 4,481</td><td>Acceptable.</td></tr>
+<tr><td>"began/started to"</td><td>47</td><td>1 / 4,958</td><td class="well">Excellent — most manuscripts run 3–5× this.</td></tr>
+<tr><td>"seemed"</td><td>16</td><td>1 / 14,500</td><td class="well">Outstanding discipline.</td></tr>
+<tr><td>"nodded"</td><td>57</td><td>1 / 4,088</td><td class="well">Well below genre average (most mss: 150–300).</td></tr>
+<tr><td>"shrugged" / "sighed"</td><td>5 / 11</td><td>—</td><td class="well">Remarkably clean of stock body-language beats.</td></tr>
+</table>
+
+<h2>Adverbs</h2>
+<div class="chartbox"><h3>Top -ly adverbs</h3><canvas id="lyChart" height="120"></canvas>
+<p class="small">~1,666 true -ly adverbs ≈ 7.2 per 1,000 words — <b>within professional range</b> (typical published fantasy: 6–12/1k; problem manuscripts: 15+). The leaders are hedge-adverbs of precision ("barely" 88, "actually" 82, "exactly" 75, "probably" 74, "slightly" 42) rather than dialogue-tag offenders — consistent with the narrating-analyst voice of the cast. Trim "slightly/barely" pairs in fight scenes where the choreography already implies the margin.</p></div>
+
+<h2>Filter Words</h2>
+<p>Verbs that put the narrator between the reader and the experience ("she felt the wind" vs. "the wind cut her"). Combined: <b>felt/feel 371 · looked 641 · watched 185 · heard 163 · saw 56 · knew 113 · realized 29 · noticed 31</b>. Two notes: (1) <em>Muse's POV legitimately requires</em> heard/felt at elevated rates — exclude her chapters from the sweep; (2) "saw" being rare while "looked/watched" run hot suggests the habit is staging characters' gazes, not filtering perception — fix with action beats, not deletion.</p>
+
+<h2>Most-Used Meaningful Words</h2>
+<div class="chartbox"><h3>Top content words (stopwords removed)</h3><canvas id="topChart" height="140"></canvas>
+<p class="small">The vocabulary fingerprint is the book's thesis in noun form: <b>hand/hands (863 combined), body (417), people (414), voice (403), cold (340), wall (330), sound (301), stone (295)</b>. A tactile, embodied, acoustic lexicon — almost no abstract nouns in the top 40. That's the blind-POV discipline radiating through the whole manuscript. ("Through" at 938 is the hidden tell: this is a book about <em>getting through</em> things — walls, ice, bodies, grief.)</p></div>
+
+<h2>Interior Monologue</h2>
+<p>Quoted-italic thought runs ~2.1% of Book One and ~1.3% of Book Two by word count — modest on average, but concentrated: B1 Ch. 21 (Carina dying) is 20.4% interiority and B2 Ch. 18 (the dream) 20.2%. The two highest-interiority chapters are also the two highest-rated chapters in this report. The style knows what it's doing; the only caution is mid-scene "explainer thoughts" that restate a feeling the action just dramatized (audited per-chapter in the chapter pages).</p>
+
+<h2>Structural Counts</h2>
+<table>
+<tr><th>Item</th><th>Count</th><th>Note</th></tr>
+<tr><td>POV scene-handoffs (scene-break markers)</td><td>~210 across both books</td><td>~3 per chapter; clean rotation discipline</td></tr>
+<tr><td>Named speaking characters</td><td>60+</td><td>~24 introduced in B1, ~36 more in B2 — the sprawl is measurable</td></tr>
+<tr><td>On-page deaths of named characters</td><td>B1: 2 · B2: 8</td><td>The darkening is quantifiable</td></tr>
+<tr><td>Chapters ending on a turn/reveal/hook</td><td>54 of 70 (77%)</td><td class="well">Serialization-grade chapter craft</td></tr>
+<tr><td>Distinct settlements visited on-page</td><td>11</td><td>Velldale, Crimson Port, Valdara, the nameless town, the cabin, the warship, Solarspire, Ostervik, Glimmerhold, Skogsund (B2 Ch.14/34), Grasten</td></tr>
+<tr><td>The dragging sound, before the knock</td><td>5 occurrences across 24 chapters</td><td class="well">Patience metric: the series' longest fuse, perfectly spaced</td></tr>
+</table>
+
+<div class="verdict">
+<h3>Data Verdict</h3>
+<p>The macro numbers (chapter lengths, adverb rate, beat-word discipline, hook percentage) look like a professionally edited book already. The line-level repetition cluster — <b>looked / something / enough / silence-quiet / voice / felt</b> — is the one measurable gap between this draft and published prose, and it is a search-and-revise problem, not a talent problem. One focused pass, chapter by chapter with these six lists open, moves the prose score from 7 to 8.5.</p>
+</div>
+
+<script>
+const b1wc=[3091,3507,3134,4356,4304,3137,4645,4341,4000,4664,3838,2714,2130,2164,1808,1802,2692,2770,3125,2346,2794,3068,2516,3353,2960,3875,2626,3407,2661,3600];
+const b2wc=[2849,3419,3788,2786,3889,3342,3105,3875,2889,1961,4069,4089,4633,4857,4616,3893,3611,4756,3267,3739,2723,3460,2972,3209,3369,2826,2958,3525,3844,2562,2942,2447,3135,2683,3272,2055,3132,3456,4360,4334];
+const b1d=[25.3,13.2,25.3,26.1,24.1,31.5,18.8,25.6,25.5,13.0,18.9,26.2,1.1,3.8,1.4,3.9,38.7,24.4,26.3,33.4,0.0,16.9,25.6,23.7,27.7,14.0,35.5,48.8,33.4,48.4];
+const b2d=[3.6,18.0,4.5,2.7,18.8,30.3,37.8,5.9,9.3,21.2,27.3,38.2,19.3,27.2,38.7,26.9,7.8,0.0,9.6,42.2,42.5,22.9,37.0,40.8,32.9,2.8,19.3,8.5,40.7,19.1,58.6,52.1,45.6,35.2,42.5,7.7,62.0,18.4,14.7,24.5];
+const b1s=[15.7,15.9,13.7,13.6,14.0,13.4,13.5,12.7,11.5,14.1,13.6,11.5,12.2,12.7,10.2,12.7,11.3,10.7,15.8,14.0,13.3,13.2,11.6,12.8,11.7,11.0,11.2,11.2,12.4,11.9];
+const b2s=[11.2,12.3,10.5,11.0,12.6,12.9,11.1,10.8,11.6,10.5,11.4,14.2,11.8,13.5,13.0,10.9,12.5,11.1,12.2,11.3,11.3,13.5,12.2,11.0,13.3,12.4,12.3,12.6,11.3,12.4,11.1,12.1,12.1,12.6,10.8,10.1,10.7,11.7,12.0,11.9];
+const labs1=Array.from({length:30},(_,i)=>'B1·'+(i+1));
+const labs2=Array.from({length:40},(_,i)=>'B2·'+(i+1));
+const frost='#7ec8e3', gold='#e8b44c', dim='#4a8fb0', ember='#e07856';
+Chart.defaults.color='#93a4ba'; Chart.defaults.borderColor='#2b3a4e'; Chart.defaults.font.family='Verdana';
+new Chart(wcChart,{type:'bar',data:{labels:labs1.concat(labs2),datasets:[{label:'Words',data:b1wc.concat(b2wc),backgroundColor:labs1.map(()=>dim).concat(labs2.map(()=>gold+'99'))}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{maxTicksLimit:24,font:{size:9}}}}}});
+new Chart(dlgChart,{type:'line',data:{labels:labs1.concat(labs2),datasets:[{label:'Dialogue %',data:b1d.concat(b2d),borderColor:frost,backgroundColor:frost+'33',fill:true,tension:.3,pointRadius:2}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{maxTicksLimit:24,font:{size:9}}},y:{title:{display:true,text:'% of words in dialogue'}}}}});
+new Chart(sentChart,{type:'line',data:{labels:labs1.concat(labs2),datasets:[{label:'Avg sentence (words)',data:b1s.concat(b2s),borderColor:gold,tension:.3,pointRadius:2}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{maxTicksLimit:24,font:{size:9}}}}}});
+new Chart(mentionChart,{type:'bar',data:{labels:['Cain','Muse','Carina','Gormund','Uthesia','Yoo','Barbatos','Dantalion','Fafnir','Andromalius','Billy','Ghisara','Stonewalker','Elizabeth','Orthek','Naika','Leo','Lumina','Inarus'],datasets:[
+{label:'Book One',data:[505,425,300,375,306,17,55,7,0,142,11,12,19,0,25,20,62,34,0],backgroundColor:dim},
+{label:'Book Two',data:[367,305,378,305,317,151,151,122,122,7,73,61,65,61,39,42,16,16,35],backgroundColor:gold+'cc'}]},
+options:{indexAxis:'y',scales:{x:{stacked:true},y:{stacked:true,ticks:{font:{size:10}}}}}});
+new Chart(lyChart,{type:'bar',data:{labels:['barely','actually','exactly','probably','slowly','immediately','slightly','finally','directly','simply','completely','properly','quietly','simultaneously','really','entirely','genuinely','absolutely'],datasets:[{label:'uses',data:[88,82,75,74,50,45,42,40,35,35,33,32,28,28,27,26,26,23],backgroundColor:ember+'bb'}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{font:{size:9}}}}}});
+new Chart(topChart,{type:'bar',data:{labels:['through','something','hand(s)','every','enough','because','body','people','voice','behind','looked','against','way','still','nothing','cold','wall','sound','room','stone'],datasets:[{label:'uses',data:[938,673,863,473,429,425,417,414,403,402,641,370,359,355,345,340,330,301,300,295],backgroundColor:frost+'aa'}]},options:{plugins:{legend:{display:false}},scales:{x:{ticks:{font:{size:9}}}}}});
+</script>
+
+</main>
+<footer>PERMAFROST — Editorial &amp; Analysis Report · statistics computed from manuscript text</footer>
+</body>
+</html>

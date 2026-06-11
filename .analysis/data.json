@@ -1,0 +1,849 @@
+{
+ "book1": {
+  "chapters": [
+   {
+    "wc": 3091,
+    "dialogue_pct": 25.3,
+    "thought_pct": 2.9,
+    "avg_sentence": 15.7
+   },
+   {
+    "wc": 3507,
+    "dialogue_pct": 13.2,
+    "thought_pct": 5.6,
+    "avg_sentence": 15.9
+   },
+   {
+    "wc": 3134,
+    "dialogue_pct": 25.3,
+    "thought_pct": 1.3,
+    "avg_sentence": 13.7
+   },
+   {
+    "wc": 4356,
+    "dialogue_pct": 26.1,
+    "thought_pct": 0.7,
+    "avg_sentence": 13.6
+   },
+   {
+    "wc": 4304,
+    "dialogue_pct": 24.1,
+    "thought_pct": 1.5,
+    "avg_sentence": 14.0
+   },
+   {
+    "wc": 3137,
+    "dialogue_pct": 31.5,
+    "thought_pct": 0.1,
+    "avg_sentence": 13.4
+   },
+   {
+    "wc": 4645,
+    "dialogue_pct": 18.8,
+    "thought_pct": 2.8,
+    "avg_sentence": 13.5
+   },
+   {
+    "wc": 4341,
+    "dialogue_pct": 25.6,
+    "thought_pct": 1.2,
+    "avg_sentence": 12.7
+   },
+   {
+    "wc": 4000,
+    "dialogue_pct": 25.5,
+    "thought_pct": 1.3,
+    "avg_sentence": 11.5
+   },
+   {
+    "wc": 4664,
+    "dialogue_pct": 13.0,
+    "thought_pct": 3.2,
+    "avg_sentence": 14.1
+   },
+   {
+    "wc": 3838,
+    "dialogue_pct": 18.9,
+    "thought_pct": 0.4,
+    "avg_sentence": 13.6
+   },
+   {
+    "wc": 2714,
+    "dialogue_pct": 26.2,
+    "thought_pct": 3.5,
+    "avg_sentence": 11.5
+   },
+   {
+    "wc": 2130,
+    "dialogue_pct": 1.1,
+    "thought_pct": 2.7,
+    "avg_sentence": 12.2
+   },
+   {
+    "wc": 2164,
+    "dialogue_pct": 3.8,
+    "thought_pct": 3.0,
+    "avg_sentence": 12.7
+   },
+   {
+    "wc": 1808,
+    "dialogue_pct": 1.4,
+    "thought_pct": 0.2,
+    "avg_sentence": 10.2
+   },
+   {
+    "wc": 1802,
+    "dialogue_pct": 3.9,
+    "thought_pct": 2.7,
+    "avg_sentence": 12.7
+   },
+   {
+    "wc": 2692,
+    "dialogue_pct": 38.7,
+    "thought_pct": 0.2,
+    "avg_sentence": 11.3
+   },
+   {
+    "wc": 2770,
+    "dialogue_pct": 24.4,
+    "thought_pct": 0.7,
+    "avg_sentence": 10.7
+   },
+   {
+    "wc": 3125,
+    "dialogue_pct": 26.3,
+    "thought_pct": 0.0,
+    "avg_sentence": 15.8
+   },
+   {
+    "wc": 2346,
+    "dialogue_pct": 33.4,
+    "thought_pct": 0.2,
+    "avg_sentence": 14.0
+   },
+   {
+    "wc": 2794,
+    "dialogue_pct": 0.0,
+    "thought_pct": 20.4,
+    "avg_sentence": 13.3
+   },
+   {
+    "wc": 3068,
+    "dialogue_pct": 16.9,
+    "thought_pct": 1.0,
+    "avg_sentence": 13.2
+   },
+   {
+    "wc": 2516,
+    "dialogue_pct": 25.6,
+    "thought_pct": 0.0,
+    "avg_sentence": 11.6
+   },
+   {
+    "wc": 3353,
+    "dialogue_pct": 23.7,
+    "thought_pct": 0.1,
+    "avg_sentence": 12.8
+   },
+   {
+    "wc": 2960,
+    "dialogue_pct": 27.7,
+    "thought_pct": 0.0,
+    "avg_sentence": 11.7
+   },
+   {
+    "wc": 3875,
+    "dialogue_pct": 14.0,
+    "thought_pct": 5.4,
+    "avg_sentence": 11.0
+   },
+   {
+    "wc": 2626,
+    "dialogue_pct": 35.5,
+    "thought_pct": 0.7,
+    "avg_sentence": 11.2
+   },
+   {
+    "wc": 3407,
+    "dialogue_pct": 48.8,
+    "thought_pct": 0.0,
+    "avg_sentence": 11.2
+   },
+   {
+    "wc": 2661,
+    "dialogue_pct": 33.4,
+    "thought_pct": 0.0,
+    "avg_sentence": 12.4
+   },
+   {
+    "wc": 3600,
+    "dialogue_pct": 48.4,
+    "thought_pct": 0.2,
+    "avg_sentence": 11.9
+   }
+  ],
+  "words": 95518
+ },
+ "book2": {
+  "chapters": [
+   {
+    "wc": 2849,
+    "dialogue_pct": 3.6,
+    "thought_pct": 3.8,
+    "avg_sentence": 11.2
+   },
+   {
+    "wc": 3419,
+    "dialogue_pct": 18.0,
+    "thought_pct": 0.1,
+    "avg_sentence": 12.3
+   },
+   {
+    "wc": 3788,
+    "dialogue_pct": 4.5,
+    "thought_pct": 0.4,
+    "avg_sentence": 10.5
+   },
+   {
+    "wc": 2786,
+    "dialogue_pct": 2.7,
+    "thought_pct": 0.0,
+    "avg_sentence": 11.0
+   },
+   {
+    "wc": 3889,
+    "dialogue_pct": 18.8,
+    "thought_pct": 0.7,
+    "avg_sentence": 12.6
+   },
+   {
+    "wc": 3342,
+    "dialogue_pct": 30.3,
+    "thought_pct": 0.4,
+    "avg_sentence": 12.9
+   },
+   {
+    "wc": 3105,
+    "dialogue_pct": 37.8,
+    "thought_pct": 1.0,
+    "avg_sentence": 11.1
+   },
+   {
+    "wc": 3875,
+    "dialogue_pct": 5.9,
+    "thought_pct": 2.5,
+    "avg_sentence": 10.8
+   },
+   {
+    "wc": 2889,
+    "dialogue_pct": 9.3,
+    "thought_pct": 1.3,
+    "avg_sentence": 11.6
+   },
+   {
+    "wc": 1961,
+    "dialogue_pct": 21.2,
+    "thought_pct": 0.0,
+    "avg_sentence": 10.5
+   },
+   {
+    "wc": 4069,
+    "dialogue_pct": 27.3,
+    "thought_pct": 0.1,
+    "avg_sentence": 11.4
+   },
+   {
+    "wc": 4089,
+    "dialogue_pct": 38.2,
+    "thought_pct": 0.1,
+    "avg_sentence": 14.2
+   },
+   {
+    "wc": 4633,
+    "dialogue_pct": 19.3,
+    "thought_pct": 0.6,
+    "avg_sentence": 11.8
+   },
+   {
+    "wc": 4857,
+    "dialogue_pct": 27.2,
+    "thought_pct": 0.0,
+    "avg_sentence": 13.5
+   },
+   {
+    "wc": 4616,
+    "dialogue_pct": 38.7,
+    "thought_pct": 0.4,
+    "avg_sentence": 13.0
+   },
+   {
+    "wc": 3893,
+    "dialogue_pct": 26.9,
+    "thought_pct": 0.0,
+    "avg_sentence": 10.9
+   },
+   {
+    "wc": 3611,
+    "dialogue_pct": 7.8,
+    "thought_pct": 0.3,
+    "avg_sentence": 12.5
+   },
+   {
+    "wc": 4756,
+    "dialogue_pct": 0.0,
+    "thought_pct": 20.2,
+    "avg_sentence": 11.1
+   },
+   {
+    "wc": 3267,
+    "dialogue_pct": 9.6,
+    "thought_pct": 0.7,
+    "avg_sentence": 12.2
+   },
+   {
+    "wc": 3739,
+    "dialogue_pct": 42.2,
+    "thought_pct": 0.0,
+    "avg_sentence": 11.3
+   },
+   {
+    "wc": 2723,
+    "dialogue_pct": 42.5,
+    "thought_pct": 4.7,
+    "avg_sentence": 11.3
+   },
+   {
+    "wc": 3460,
+    "dialogue_pct": 22.9,
+    "thought_pct": 0.0,
+    "avg_sentence": 13.5
+   },
+   {
+    "wc": 2972,
+    "dialogue_pct": 37.0,
+    "thought_pct": 0.1,
+    "avg_sentence": 12.2
+   },
+   {
+    "wc": 3209,
+    "dialogue_pct": 40.8,
+    "thought_pct": 0.1,
+    "avg_sentence": 11.0
+   },
+   {
+    "wc": 3369,
+    "dialogue_pct": 32.9,
+    "thought_pct": 0.1,
+    "avg_sentence": 13.3
+   },
+   {
+    "wc": 2826,
+    "dialogue_pct": 2.8,
+    "thought_pct": 1.5,
+    "avg_sentence": 12.4
+   },
+   {
+    "wc": 2958,
+    "dialogue_pct": 19.3,
+    "thought_pct": 1.0,
+    "avg_sentence": 12.3
+   },
+   {
+    "wc": 3525,
+    "dialogue_pct": 8.5,
+    "thought_pct": 0.0,
+    "avg_sentence": 12.6
+   },
+   {
+    "wc": 3844,
+    "dialogue_pct": 40.7,
+    "thought_pct": 3.1,
+    "avg_sentence": 11.3
+   },
+   {
+    "wc": 2562,
+    "dialogue_pct": 19.1,
+    "thought_pct": 0.2,
+    "avg_sentence": 12.4
+   },
+   {
+    "wc": 2942,
+    "dialogue_pct": 58.6,
+    "thought_pct": 0.0,
+    "avg_sentence": 11.1
+   },
+   {
+    "wc": 2447,
+    "dialogue_pct": 52.1,
+    "thought_pct": 0.0,
+    "avg_sentence": 12.1
+   },
+   {
+    "wc": 3135,
+    "dialogue_pct": 45.6,
+    "thought_pct": 0.0,
+    "avg_sentence": 12.1
+   },
+   {
+    "wc": 2683,
+    "dialogue_pct": 35.2,
+    "thought_pct": 2.5,
+    "avg_sentence": 12.6
+   },
+   {
+    "wc": 3272,
+    "dialogue_pct": 42.5,
+    "thought_pct": 0.0,
+    "avg_sentence": 10.8
+   },
+   {
+    "wc": 2055,
+    "dialogue_pct": 7.7,
+    "thought_pct": 0.4,
+    "avg_sentence": 10.1
+   },
+   {
+    "wc": 3132,
+    "dialogue_pct": 62.0,
+    "thought_pct": 0.6,
+    "avg_sentence": 10.7
+   },
+   {
+    "wc": 3456,
+    "dialogue_pct": 18.4,
+    "thought_pct": 1.7,
+    "avg_sentence": 11.7
+   },
+   {
+    "wc": 4360,
+    "dialogue_pct": 14.7,
+    "thought_pct": 2.5,
+    "avg_sentence": 12.0
+   },
+   {
+    "wc": 4334,
+    "dialogue_pct": 24.5,
+    "thought_pct": 0.1,
+    "avg_sentence": 11.9
+   }
+  ],
+  "words": 136897
+ },
+ "crutch": {
+  "just": 400,
+  "something": 673,
+  "back": 675,
+  "still": 355,
+  "like": 406,
+  "enough": 429,
+  "moment": 158,
+  "little": 33,
+  "small": 129,
+  "way": 359,
+  "thing": 182,
+  "things": 104,
+  "even": 203,
+  "already": 234,
+  "actually": 82
+ },
+ "constructions": {
+  "the_kind_of": 52,
+  "the_way_that": 199,
+  "something_that": 114,
+  "didnt_need_to": 0,
+  "not_X_but_Y": 27,
+  "began_to": 35,
+  "started_to": 12,
+  "seemed": 16,
+  "felt": 202,
+  "feel": 169,
+  "heard": 163,
+  "saw": 56,
+  "watched": 185,
+  "realized": 29,
+  "noticed": 31,
+  "looked": 641,
+  "knew": 113,
+  "eyes": 347,
+  "silence": 176,
+  "quiet": 185,
+  "cold": 343,
+  "dark": 209,
+  "voice": 403,
+  "breath": 248,
+  "nodded": 57,
+  "shrugged": 5,
+  "sighed": 11,
+  "smiled": 94,
+  "grinned": 70,
+  "paused": 112,
+  "exhaled": 19,
+  "the_sound_of": 76
+ },
+ "ly_total": 1750,
+ "ly_top": [
+  [
+   "barely",
+   88
+  ],
+  [
+   "billy",
+   84
+  ],
+  [
+   "actually",
+   82
+  ],
+  [
+   "exactly",
+   75
+  ],
+  [
+   "probably",
+   74
+  ],
+  [
+   "slowly",
+   50
+  ],
+  [
+   "immediately",
+   45
+  ],
+  [
+   "slightly",
+   42
+  ],
+  [
+   "finally",
+   40
+  ],
+  [
+   "directly",
+   35
+  ],
+  [
+   "simply",
+   35
+  ],
+  [
+   "completely",
+   33
+  ],
+  [
+   "properly",
+   32
+  ],
+  [
+   "heavenly",
+   30
+  ],
+  [
+   "quietly",
+   28
+  ],
+  [
+   "simultaneously",
+   28
+  ],
+  [
+   "really",
+   27
+  ],
+  [
+   "entirely",
+   26
+  ],
+  [
+   "genuinely",
+   26
+  ],
+  [
+   "absolutely",
+   23
+  ]
+ ],
+ "emdash": 279,
+ "ellipsis": 158,
+ "mentions": {
+  "Muse": [
+   425,
+   305
+  ],
+  "Cain": [
+   505,
+   367
+  ],
+  "Carina": [
+   300,
+   378
+  ],
+  "Gormund": [
+   375,
+   305
+  ],
+  "Uthesia": [
+   306,
+   317
+  ],
+  "Yoo": [
+   17,
+   151
+  ],
+  "Billy": [
+   11,
+   73
+  ],
+  "Jane": [
+   5,
+   25
+  ],
+  "Barbatos": [
+   55,
+   151
+  ],
+  "Dantalion": [
+   7,
+   122
+  ],
+  "Elizabeth": [
+   0,
+   61
+  ],
+  "Orthek": [
+   25,
+   39
+  ],
+  "Ghisara": [
+   12,
+   61
+  ],
+  "Fafnir": [
+   0,
+   122
+  ],
+  "Stonewalker": [
+   19,
+   65
+  ],
+  "Lumina": [
+   34,
+   16
+  ],
+  "Asriel": [
+   17,
+   17
+  ],
+  "Andromalius": [
+   142,
+   7
+  ],
+  "Naika": [
+   20,
+   42
+  ],
+  "Xeroc": [
+   0,
+   15
+  ],
+  "Inarus": [
+   0,
+   35
+  ],
+  "Leo": [
+   62,
+   16
+  ],
+  "Talia": [
+   0,
+   11
+  ],
+  "Merchant": [
+   0,
+   22
+  ],
+  "Everos": [
+   0,
+   7
+  ],
+  "Lucas": [
+   0,
+   11
+  ],
+  "Gudrun": [
+   0,
+   14
+  ],
+  "Sa-Gachi": [
+   1,
+   5
+  ],
+  "Dravemont": [
+   0,
+   9
+  ]
+ },
+ "top_words": [
+  [
+   "through",
+   938
+  ],
+  [
+   "cain",
+   878
+  ],
+  [
+   "him",
+   771
+  ],
+  [
+   "muse",
+   731
+  ],
+  [
+   "gormund",
+   682
+  ],
+  [
+   "carina",
+   677
+  ],
+  [
+   "something",
+   673
+  ],
+  [
+   "didn",
+   628
+  ],
+  [
+   "uthesia",
+   624
+  ],
+  [
+   "hand",
+   490
+  ],
+  [
+   "every",
+   473
+  ],
+  [
+   "enough",
+   429
+  ],
+  [
+   "because",
+   425
+  ],
+  [
+   "body",
+   417
+  ],
+  [
+   "people",
+   414
+  ],
+  [
+   "voice",
+   403
+  ],
+  [
+   "behind",
+   402
+  ],
+  [
+   "where",
+   400
+  ],
+  [
+   "before",
+   391
+  ],
+  [
+   "looked",
+   381
+  ],
+  [
+   "hands",
+   373
+  ],
+  [
+   "against",
+   370
+  ],
+  [
+   "your",
+   368
+  ],
+  [
+   "about",
+   364
+  ],
+  [
+   "way",
+   359
+  ],
+  [
+   "still",
+   355
+  ],
+  [
+   "nothing",
+   345
+  ],
+  [
+   "left",
+   343
+  ],
+  [
+   "cold",
+   340
+  ],
+  [
+   "wall",
+   330
+  ],
+  [
+   "between",
+   311
+  ],
+  [
+   "around",
+   308
+  ],
+  [
+   "man",
+   303
+  ],
+  [
+   "sound",
+   301
+  ],
+  [
+   "room",
+   300
+  ],
+  [
+   "stone",
+   295
+  ],
+  [
+   "first",
+   293
+  ],
+  [
+   "now",
+   287
+  ],
+  [
+   "without",
+   286
+  ],
+  [
+   "know",
+   285
+  ]
+ ],
+ "total_words": 232415
+}
